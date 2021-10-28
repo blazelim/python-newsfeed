@@ -107,4 +107,4 @@ def upvote():
         db.rollback()
         return jsonify(message = 'Upvote failed'), 500
 
-        
+    return '', 204
